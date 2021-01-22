@@ -1,0 +1,16 @@
+server:
+  port: 8401
+
+spring:
+  application:
+    name: cloud-alibaba-demo
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.xiaohongzhuan.com:80
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
